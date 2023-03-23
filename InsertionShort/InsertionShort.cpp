@@ -51,13 +51,13 @@ int temp;    //membuat variable daya temporer atau penyimpanan sementara
 			j--;
 		}
 
-		arr[j + 1] temp;
+		arr[j + 1] = temp;
 
 		cout << endl;
 		cout << "\npass" << i << ": ";
-		for (int k = 0); k < n; k++)
+		for (int k = 0 ; k < n; k++)
 		{
-			cout << arr[k] << n " "; //output ke layar 
+			cout << arr[k] << n;  " "; //output ke layar 
 		}
 
 	}
@@ -83,6 +83,6 @@ void display()
 int main()
 {
 	input();      // memanggil input
-	insertionsort();     // memanggil insertionshort
+	insertionshort();     // memanggil insertionshort
 	display();     // memanggil display 
 }
