@@ -35,26 +35,34 @@ void input()
 	}
 }
 // procedure insertionshort
-void insertionshort()
-}
-int temp//membuat variable daya temporer atau penyimpanan sementara
-int j; // membuat variable j sebagai panda
-
-for (int i = 1; i < n; i++) // membuat looping dengan i di mulai dari 1 hingga n-1
 {
-	temp = arr[i];
-	j = i - 1;
+	void insertionshort()
+		int temp//membuat variable daya temporer atau penyimpanan sementara
+		int j; // membuat variable j sebagai panda
 
-	while (j >= 0 && arr[j] > temp)
+	for (int i = 1; i < n; i++) // membuat looping dengan i di mulai dari 1 hingga n-1
 	{
-		arr[j + 1] = arr[j];
-		j--;
-    }
+		temp = arr[i];
+		j = i - 1;
 
-	arr[j + 1] temp;
+		while (j >= 0 && arr[j] > temp)
+		{
+			arr[j + 1] = arr[j];
+			j--;
+		}
 
-	cout << endl;
-	cout << 
+		arr[j + 1] temp;
 
-    
+		cout << endl;
+		cout << "\npass" << i << ": ";
+		for (int k = 0); k < n; k++)
+		{
+			cout << arr[k] << n " "; //output ke layar 
+		}
+
+	}
+
+}
+
+void display 
 	
