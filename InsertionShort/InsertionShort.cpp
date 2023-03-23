@@ -36,10 +36,10 @@ void input()
 
 // procedure insertionshort
 void insertionshort()
-}
+{
 int temp;    //membuat variable daya temporer atau penyimpanan sementara
 		int j; // membuat variable j sebagai panda
-
+	
 	for (int i = 1; i < n; i++)// membuat looping dengan i di mulai dari 1 hingga n-1
 	{
 		temp = arr[i];
