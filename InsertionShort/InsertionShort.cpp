@@ -12,7 +12,6 @@ void input()
 		cout << "Masukan jumlah data pada array : "; // membuat inputan element array
 		cin >> n;									 // Memanggil variable inputan n
 
-
 		if (n <= 20)
 		{   // Mebuat kondisi n tidak lebih dari 20
 			break;
@@ -33,14 +32,15 @@ void input()
 		cout << "data ke-n" << (i + 1) << ": ";
 		cin >> arr[i];
 	}
+
 }
 // procedure insertionshort
 }
-	void insertionshort()
-		int temp//membuat variable daya temporer atau penyimpanan sementara
+void insertionshort()
+int temp;    //membuat variable daya temporer atau penyimpanan sementara
 		int j; // membuat variable j sebagai panda
 
-	for (int i = 1; i < n; i++) // membuat looping dengan i di mulai dari 1 hingga n-1
+	for (int i = 1; i < n; i++)// membuat looping dengan i di mulai dari 1 hingga n-1
 	{
 		temp = arr[i];
 		j = i - 1;
@@ -61,7 +61,6 @@ void input()
 		}
 
 	}
-
 }
 
 void display()
@@ -77,12 +76,13 @@ void display()
 		cout << arr[j] << endl; // output ke layar
 
 	}
-	cout << endl     // output baris kosong 
+	cout << endl;   // output baris kosong 
 }
 
 
 int main()
 {
 	input();      // memanggil input
-	insertionshort();     // memanggil insertionshort
-	display()     // memanggil display 
+	insertionsort();     // memanggil insertionshort
+	display();     // memanggil display 
+}
