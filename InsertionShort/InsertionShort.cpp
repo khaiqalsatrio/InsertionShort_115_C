@@ -35,7 +35,7 @@ void input()
 	}
 }
 // procedure insertionshort
-{
+}
 	void insertionshort()
 		int temp//membuat variable daya temporer atau penyimpanan sementara
 		int j; // membuat variable j sebagai panda
