@@ -32,11 +32,11 @@ void input()
 		cout << "data ke-n" << (i + 1) << ": ";
 		cin >> arr[i];
 	}
+}
 
-}
 // procedure insertionshort
-}
 void insertionshort()
+}
 int temp;    //membuat variable daya temporer atau penyimpanan sementara
 		int j; // membuat variable j sebagai panda
 
