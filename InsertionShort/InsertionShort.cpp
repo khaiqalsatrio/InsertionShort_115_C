@@ -64,5 +64,11 @@ void input()
 
 }
 
-void display 
+void display()
+{
+	cout << endl;
+	cout << "Total Element Movement= " << n - 1 << endl; // cout movement element
+	cout << "\n==========================" << endl;      // output ke layar
+	cout << "element array yang telah tersusun" << endl; // output ke layar
+	cout << "============================" << endl; // output ke layar
 	
